@@ -1,0 +1,11 @@
+{
+    "appName": "renovate-test-app-team",
+    "notifications": {
+      "slack_channels": [
+        "fedops-urgent-default"
+      ]
+    },
+    "deploy_annotations": [
+      "renovate-test-app-team"
+    ]
+  }
