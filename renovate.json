@@ -1,27 +1,27 @@
 {
   "automerge": true,
+  "recreateClosed": true,
+  "rebaseStalePrs": true,
+  "separateMajorMinor": false,
+  "major": {
+    "automerge": false
+  },
   "packageRules": [
     {
-      "packagePatterns": [
-        "yoshi",
-        "yoshi$",
-        "^yoshi"
-      ],
-      "major": true,
-      "minor": true,
-      "patch": true,
-      "pin": true,
+      "packagePatterns": ["^yoshi"],
       "groupName": "yoshi packages"
     },
     {
-      "packagePatterns": [
-        "*"
-      ],
-      "major": true,
-      "minor": true,
-      "patch": true,
-      "pin": true,
-      "groupName": "other packages"
+      "packagePatterns": ["^wix"],
+      "groupName": "wix packages"
+    },
+    {
+      "packagePatterns": ["^react"],
+      "groupName": "react packages"
+    },
+    {
+      "packagePatterns": ["^express"],
+      "groupName": "express packages"
     }
   ],
   "requiredStatusChecks": []
