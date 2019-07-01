@@ -26,12 +26,6 @@
       "groupName": "wix UI packages"
     },
     {
-      "packageNames": ["wix-style-react"],
-      "description": "wix-style-react project is updating every day",
-      "schedule": ["before 10pm on every weekday"],
-      "groupName": "WSR packages"
-    },
-    {
       "packagePatterns": ["^react"],
       "description": "react projects is updating every week on Monday",
       "schedule": ["before 10pm on Monday"],
