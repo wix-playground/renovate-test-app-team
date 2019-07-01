@@ -3,10 +3,18 @@
   "packageRules": [
     {
       "packagePatterns": [
-        "^yoshi",
-        "yoshi"
+        "yoshi",
+        "-yoshi$",
+        "^yoshi-",
+        "-yoshi-"
       ],
       "groupName": "yoshi packages"
+    },
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "groupName": "other packages"
     }
   ],
   "requiredStatusChecks": []
