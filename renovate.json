@@ -6,11 +6,11 @@
   "major": {
     "automerge": false
   },
-  "schedule": ["every 2 mins"],
+  "schedule": ["before 7pm"],
   "packageRules": [
     {
       "packagePatterns": ["^yoshi"],
-      "schedule": ["every 2 mins"],
+      "schedule": ["before 7pm"],
       "groupName": "yoshi packages"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "packagePatterns": ["^react"],
-      "schedule": ["every 2 mins"],
+      "schedule": ["before 7pm"],
       "groupName": "react packages"
     },
     {
