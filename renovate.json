@@ -6,17 +6,20 @@
   "major": {
     "automerge": false
   },
+  "schedule": ["every 2 mins"],
   "packageRules": [
     {
       "packagePatterns": ["^yoshi"],
+      "schedule": ["every 2 mins"],
       "groupName": "yoshi packages"
     },
     {
-      "packagePatterns": ["^wix"],
-      "groupName": "wix packages"
+      "packagePatterns": ["^wix-ui", "^wix-style-react"],
+      "groupName": "wix UI packages"
     },
     {
       "packagePatterns": ["^react"],
+      "schedule": ["every 2 mins"],
       "groupName": "react packages"
     },
     {
