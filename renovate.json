@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "^yoshi"
+      ],
+      "groupName": "yoshi packages",
+      "extends": [
+        ":semanticCommitTypeAll(chore)"
+      ]
+    },
+    {
+      "packagePatterns": [
+        "^(@wix-|wix-)"
+      ],
+      "groupName": "wix packages",
+      "extends": [
+        ":semanticCommitTypeAll(chore)"
+      ]
+    }
+  ],
+  "requiredStatusChecks": []
+}
