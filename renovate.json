@@ -6,7 +6,7 @@
   "major": {
     "automerge": false
   },
-  "schedule": ["before 5pm on Monday"],
+  "schedule": ["before 10pm on Monday"],
   "packageRules": [
     {
       "packagePatterns": ["^yoshi"],
@@ -16,25 +16,25 @@
     {
       "packagePatterns": ["^wix-ui"],
       "description": "wix-ui related projects is updating every day",
-      "schedule": ["before 5pm on every weekday"],
+      "schedule": ["before 10pm on every weekday"],
       "groupName": "wix UI packages"
     },
     {
       "packageNames": ["wix-style-react"],
       "description": "wix-style-react project is updating every day",
-      "schedule": ["before 5pm on every weekday"],
+      "schedule": ["before 10pm on every weekday"],
       "groupName": "WSR packages"
     },
     {
       "packagePatterns": ["^react"],
       "description": "react projects is updating every week on Monday",
-      "schedule": ["before 5pm on Monday"],
+      "schedule": ["before 10pm on Monday"],
       "groupName": "react packages"
     },
     {
       "packagePatterns": ["^express"],
       "description": "express projects is updating every week on Monday",
-      "schedule": ["before 5pm on Monday"],
+      "schedule": ["before 10pm on Monday"],
       "groupName": "express packages"
     }
   ],
