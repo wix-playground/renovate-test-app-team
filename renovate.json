@@ -14,7 +14,7 @@
       "groupName": "yoshi packages"
     },
     {
-      "packagePatterns": ["^wix-ui", "^wix-style-react"],
+      "packagePatterns": ["^wix-ui"],
       "groupName": "wix UI packages"
     },
     {
