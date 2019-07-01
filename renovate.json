@@ -1,12 +1,10 @@
 {
-  "extends": [
-    "config:base"
-  ],
   "automerge": true,
   "packageRules": [
     {
       "packagePatterns": [
-        "^yoshi"
+        "^yoshi",
+        "yoshi"
       ],
       "groupName": "yoshi packages",
       "extends": [
