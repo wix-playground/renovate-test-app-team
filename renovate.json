@@ -7,6 +7,10 @@
         "yoshi$",
         "^yoshi"
       ],
+      "major": true,
+      "minor": true,
+      "patch": true,
+      "pin": true,
       "groupName": "yoshi packages"
     },
     {
@@ -14,6 +18,9 @@
         "*"
       ],
       "major": true,
+      "minor": true,
+      "patch": true,
+      "pin": true,
       "groupName": "other packages"
     }
   ],
