@@ -4,9 +4,8 @@
     {
       "packagePatterns": [
         "yoshi",
-        "-yoshi$",
-        "^yoshi-",
-        "-yoshi-"
+        "yoshi$",
+        "^yoshi"
       ],
       "groupName": "yoshi packages"
     },
@@ -14,6 +13,7 @@
       "packagePatterns": [
         "*"
       ],
+      "major": true,
       "groupName": "other packages"
     }
   ],
