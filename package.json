@@ -33,7 +33,7 @@
     "yoshi-style-dependencies": "^3.0.0"
   },
   "dependencies": {
-    "renovate-test-lib": "^20.0.0",
+    "renovate-test-lib": "^19.0.0",
     "wix-style-react": "^3.0.0",
     "wix-ui-core": "^1.0.0",
     "wix-ui-backoffice": "^1.0.0",
