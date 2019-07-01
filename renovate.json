@@ -16,8 +16,8 @@
     {
       "packageNames": ["renovate-test-lib"],
       "description": "renovate-test-lib package is updating immediately",
-      "schedule": ["before 10pm on every weekday"],
-      "groupName": "yoshi packages"
+      "schedule": ["before 11pm on every weekday"],
+      "groupName": "renovate-test-lib packages"
     },
     {
       "packagePatterns": ["^wix-ui"],
