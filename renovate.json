@@ -7,7 +7,7 @@
   "major": {
     "automerge": false
   },
-  "schedule": ["after 10:30am and before 11am on Monday"],
+  "schedule": ["after 10:30am and before 11pm on Monday"],
   "packageRules": [
     {
       "packagePatterns": ["^yoshi"],
@@ -17,25 +17,25 @@
     {
       "packageNames": ["renovate-test-lib"],
       "description": "renovate-test-lib package is updating immediately",
-      "schedule": ["after 10:30am and before 11am on every weekday"],
+      "schedule": ["after 10:30am and before 11pm on every weekday"],
       "groupName": "renovate-test-lib packages"
     },
     {
       "packagePatterns": ["^wix-ui"],
       "description": "wix-ui related projects is updating every day",
-      "schedule": ["after 10:30am and before 11am on every weekday"],
+      "schedule": ["after 10:30am and before 11pm on every weekday"],
       "groupName": "wix UI packages"
     },
     {
       "packagePatterns": ["^react"],
       "description": "react projects is updating every week on Monday",
-      "schedule": ["after 10:30am and before 11am on Monday"],
-      "groupName": "react packages"
+      "schedule": ["after 10:30am and before 11pm on every weekday"],
+      "groupName": "React packages"
     },
     {
       "packagePatterns": ["^express"],
       "description": "express projects is updating every week on Monday",
-      "schedule": ["after 10:30am and before 11am on Monday"],
+      "schedule": ["after 10:30am and before 11pm on Monday"],
       "groupName": "express packages"
     }
   ],
