@@ -2,7 +2,6 @@
   "automerge": true,
   "recreateClosed": true,
   "rebaseStalePrs": true,
-  "dryRun": true,
   "separateMajorMinor": false,
   "major": {
     "automerge": false
