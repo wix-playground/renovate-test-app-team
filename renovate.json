@@ -4,7 +4,7 @@
   "rebaseStalePrs": true,
   "separateMajorMinor": false,
   "automergeType": "pr",
-  "updateLockFiles": true,
+  "updateLockFiles": false,
   "major": {
     "automerge": false
   },
