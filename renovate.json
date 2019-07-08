@@ -3,6 +3,8 @@
   "recreateClosed": true,
   "rebaseStalePrs": true,
   "separateMajorMinor": false,
+  "automergeType": "pr",
+  "updateLockFiles": true,
   "major": {
     "automerge": false
   },
