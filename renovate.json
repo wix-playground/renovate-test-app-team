@@ -14,8 +14,9 @@
       "description": "yoshi package is updating immediately"
     },
     {
-      "packageNames": ["renovate-test-lib"],
-      "description": "renovate-test-lib package is updating immediately"
+      "packagePatterns": ["^@wix"],
+      "description": "wix-ui related projects is updating every day",
+      "groupName": "wix packages"
     }
   ],
   "requiredStatusChecks": []

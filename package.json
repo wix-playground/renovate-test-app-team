@@ -23,7 +23,7 @@
     "yoshi": "^3.0.0"
   },
   "dependencies": {
-    "renovate-test-lib": "^19.0.0"
+    "@wix/wix-vod-widget": "1.10.40"
   },
   "lint-staged": {
     "*.{js,scss,less}": "yoshi lint"
