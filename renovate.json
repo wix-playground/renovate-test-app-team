@@ -12,6 +12,10 @@
     {
       "packageNames": ["yoshi"],
       "description": "yoshi package is updating immediately"
+    },
+    {
+      "packageNames": ["renovate-test-lib"],
+      "description": "renovate-test-lib package is updating immediately"
     }
   ],
   "requiredStatusChecks": []

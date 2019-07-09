@@ -23,6 +23,7 @@
     "yoshi": "^3.0.0"
   },
   "dependencies": {
+    "renovate-test-lib": "^19.0.0"
   },
   "lint-staged": {
     "*.{js,scss,less}": "yoshi lint"
