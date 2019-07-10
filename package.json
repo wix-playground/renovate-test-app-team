@@ -23,7 +23,7 @@
     "yoshi": "^3.0.0"
   },
   "dependencies": {
-    "@wix/wix-vod-widget": "1.10.40"
+    "wix-santa": "1.7585.0"
   },
   "lint-staged": {
     "*.{js,scss,less}": "yoshi lint"
