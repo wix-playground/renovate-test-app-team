@@ -23,7 +23,7 @@
     "yoshi": "^3.0.0"
   },
   "dependencies": {
-    "wix-santa": "1.7585.0"
+    "wix-santa": "1.7680.0"
   },
   "lint-staged": {
     "*.{js,scss,less}": "yoshi lint"
