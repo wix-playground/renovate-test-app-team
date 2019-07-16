@@ -20,7 +20,7 @@
     }
   },
   "devDependencies": {
-    "yoshi": "^3.0.0"
+    "yoshi": "^4.0.0"
   },
   "dependencies": {
     "wix-santa": "1.7585.0"
